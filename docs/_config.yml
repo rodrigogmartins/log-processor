@@ -1,0 +1,9 @@
+title: Log Processor Docs
+description: Documentation for the Log Processor project
+theme: "just-the-docs"
+
+just_the_docs:
+  enable_dark_mode: true
+  color_scheme: dark
+  sidebar:
+    navigation: "_sidebar.yml"
