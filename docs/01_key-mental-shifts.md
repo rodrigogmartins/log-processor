@@ -1,3 +1,8 @@
+---
+title: 💡 Key Mental Shifts
+nav_order: 1
+---
+
 # 💡 Key Mental Shifts
 
 ## 📘 Table of Contents

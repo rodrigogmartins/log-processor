@@ -1,3 +1,8 @@
+---
+title: 🧰 Pro Tips for Writing Idiomatic Go
+nav_order: 2
+---
+
 # 🧰 Pro Tips for Writing Idiomatic Go
 
 ## 📘 Table of Contents

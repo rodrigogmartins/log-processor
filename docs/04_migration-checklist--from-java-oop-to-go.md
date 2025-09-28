@@ -1,3 +1,8 @@
+---
+title: 🧭 Migration Checklist — From Java (OOP) to Go 🦫
+nav_order: 4
+---
+
 # 🧭 Migration Checklist — From Java (OOP) to Go 🦫
 
 ## 📘 Table of Contents

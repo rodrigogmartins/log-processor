@@ -1,3 +1,8 @@
+---
+title: 📚 References & Further Reading
+nav_order: 5
+---
+
 # 📚 References & Further Reading
 
 ## 📘 Table of Contents

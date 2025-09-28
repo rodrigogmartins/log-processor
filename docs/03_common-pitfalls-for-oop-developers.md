@@ -1,3 +1,8 @@
+---
+title: 🚧 Common Pitfalls for OOP Developers
+nav_order: 3
+---
+
 # 🚧 Common Pitfalls for OOP Developers
 
 ## 📘 Table of Contents

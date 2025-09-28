@@ -1,9 +1,10 @@
-title: Log Processor Docs
-description: Documentation for the Log Processor project
+title: GO 4 OOP Devs
+description: Documentation for the OOP Devs that are starting to work with GO
 theme: "just-the-docs"
 
+enable_dark_mode: true
+color_scheme: dark
+
 just_the_docs:
-  enable_dark_mode: true
-  color_scheme: dark
   sidebar:
-    navigation: "_sidebar.yml"
+    navigation: "_sidebar.md"
