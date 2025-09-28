@@ -1,10 +1,30 @@
 # 📄 Log Processor
 
-## 🛠️ Overview
-
 **Log Processor** is a Go-based application designed to consume logs from Kafka, process them concurrently, and store them in Elasticsearch for further querying and analysis. The project exposes a REST API to allow retrieval of logs by various filters (e.g., by level or ID) and demonstrates a robust architecture for building scalable data processing systems in Go.
 
-## Use Case: Centralized Log Processing System
+## 🌐 Learn More About Go for OOP Developers
+
+Check out my dedicated web guide here: [**🧠 Go Mindset for OOP Developers**](https://rodrigogmartins.github.io/log-processor)
+
+This site breaks down concepts, idiomatic patterns, and migration tips in a way that's easy to grasp for developers coming from Java, C#, or other OOP backgrounds.
+
+## ⭐ Support This Project
+
+If you found this project useful or learned something from it, consider giving it a ⭐ on GitHub!  
+
+Your support helps keep this project alive and encourages more improvements. Thank you! 🙏
+
+## 📘 Table of Contents
+
+- [**1. Use Case: Centralized Log Processing System**](#1-use-case-centralized-log-processing-system)
+- [**2. 🎯 Objective**](#2--objective)
+- [**3. 🧠 Techniques and Learnings Applied**](#3--techniques-and-learnings-applied)
+- [**4. 🚀 Running the Project**](#4--running-the-project)
+- [**5. 📚 References and Best Practices Adopted**](#5--references-and-best-practices-adopted)
+- [**6. 📁 Project Structure**](#6--project-structure)
+- [**7. 7. 📝 Notes**](#7--notes)
+
+## 1. Use Case: Centralized Log Processing System
 
 A mid-size SaaS company called AcmeCloud, which operates multiple microservices written in different languages (Go, Node.js, Python) across various containers and servers. Each service generates application logs — from API requests, background jobs, and error events.
 
@@ -46,7 +66,7 @@ With this pipeline in place, AcmeCloud’s DevOps team can:
 
 This use case illustrates how Log Processor helps bridge the gap between raw logs and actionable insights, turning distributed chaos into structured observability.
 
-## 🎯 Objective
+## 2. 🎯 Objective
 
 The main goals of this project are:
 
@@ -58,7 +78,7 @@ The main goals of this project are:
 
 - 📦 Create a template project that can be used as a base for future Go projects with similar requirements.
 
-## 🧠 Techniques and Learnings Applied
+## 3. 🧠 Techniques and Learnings Applied
 
 This project was designed to explore and consolidate multiple Go concepts and best practices:
 
@@ -83,7 +103,7 @@ This project was designed to explore and consolidate multiple Go concepts and be
 - 🐳 **Dockerized dependencies**  
   Kafka, Elasticsearch, and Kafdrop are all containerized for easy local setup.
 
-## 🚀 Running the Project
+## 4. 🚀 Running the Project
 
 1. **Clone the repository**
 
@@ -118,7 +138,7 @@ This project was designed to explore and consolidate multiple Go concepts and be
       go test ./...
     ```
 
-## 📚 References and Best Practices Adopted
+## 5. 📚 References and Best Practices Adopted
 
 - 🗂️ Project structure: inspired by Standard Go Project Layout
 
@@ -132,7 +152,7 @@ This project was designed to explore and consolidate multiple Go concepts and be
 
 - 🛑 Graceful shutdown: clean termination of goroutines and external connections
 
-## 📁 Project Structure
+## 6. 📁 Project Structure
 
 ```bash
 log-processor/
@@ -170,7 +190,7 @@ log-processor/
 └── .env
 ```
 
-## 📝 Notes
+## 7. 📝 Notes
 
 This project is optimized for local development using Docker 🐳.
 
