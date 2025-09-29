@@ -2,9 +2,9 @@
 
 **Log Processor** is a Go-based application designed to consume logs from Kafka, process them concurrently, and store them in Elasticsearch for further querying and analysis. The project exposes a REST API to allow retrieval of logs by various filters (e.g., by level or ID) and demonstrates a robust architecture for building scalable data processing systems in Go.
 
-## 🌐 Learn More About Go for OOP Developers
+## [🌐 Learn More About Go for OOP Developers](https://rodrigogmartins.github.io/go-for-oop-devs/)
 
-Check out my dedicated web guide here: [**🧠 Go Mindset for OOP Developers**](https://rodrigogmartins.github.io/log-processor)
+Check out my dedicated web guide here: [**Go for OOP Developers**](https://rodrigogmartins.github.io/go-for-oop-devs/)
 
 This site breaks down concepts, idiomatic patterns, and migration tips in a way that's easy to grasp for developers coming from Java, C#, or other OOP backgrounds.
 
